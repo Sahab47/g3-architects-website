@@ -18,6 +18,8 @@
     display: flex;
 }
 .bg-light{
+    max-width: 1440px;
+    margin: 0 auto;
     background-color: bisque;
 }
 .navbar{
@@ -142,6 +144,23 @@ main > section{
 }
 .sponsors-companies{
     filter:grayscale(100%);
+}
+.footer{
+   
+    width:1440px;
+    height: 100px;
+     margin: 0 auto;
+     background-color: aqua;
+     align-items: center;
+     margin-top: 100px;
+    
+
+}
+.footer p{
+text-align: center;
+padding-top: 50px;
+    
+
 }
 @media screen and (max-width:576px ) {
     .navbar, .nav-link, .teams{
